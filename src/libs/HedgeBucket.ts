@@ -1,4 +1,4 @@
-import type { IHedgeBucket } from "./interfaces/IHedgeBucket";
+import type { IHedgeBucket } from "../interfaces/IHedgeBucket";
 
 class HedgeBucket implements IHedgeBucket {
     private tokens = 0;

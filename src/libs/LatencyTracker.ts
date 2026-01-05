@@ -1,4 +1,4 @@
-import type { ILatencyTracker } from "./interfaces/ILatencyTracker";
+import type { ILatencyTracker } from "../interfaces/ILatencyTracker";
 
 export class LatencyTracker implements ILatencyTracker {
     private samples: number[] = [];
